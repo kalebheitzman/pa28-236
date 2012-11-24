@@ -6,7 +6,7 @@
 		<description>Piper Dakota</description>
 		<aircraft-version>0.0.1</aircraft-version>
 		<author>Kaleb Heitzman</author>
-		<flight-model>yasim</flight-model>
+		<flight-model>jsb</flight-model>
 		<aero>pa28-236</aero>
 
 		<view>
@@ -16,7 +16,7 @@
 	    <config>
 	      <from-model type="bool">true</from-model>
 	      <from-model-idx type="int">0</from-model-idx>
-				<x-offset-m type="double"> -0.25 </x-offset-m>
+				<x-offset-m type="double"> -0.55 </x-offset-m>
 				<y-offset-m type="double">  0.58 </y-offset-m>
 				<z-offset-m type="double">  1.26 </z-offset-m>
 	    </config>

@@ -16,7 +16,7 @@
 	    </emission>
 	
 			<!-- Cockpit -->
-			<model>
+			<!--model>
 				<name>cockpit</name>
 				<path>Aircraft/pa28-236/Models/cockpit.ac</path>
 				<offsets>
@@ -25,7 +25,7 @@
 					<z-m>  0.00 </z-m>
 					<pitch-deg>0</pitch-deg>
 				</offsets>
-			</model>
+			</model-->
 	
 			<!-- Propeller -->
 			<animation>
@@ -156,9 +156,9 @@
 		    </axis>
 		  </animation>
 		
-			<model>
+			<!--model>
 				<name>panel</name>
 				<path>Aircraft/pa28-236/Models/pa28-236-panel.xml</path>
-			</model>
+			</model-->
 					
 </PropertyList>
