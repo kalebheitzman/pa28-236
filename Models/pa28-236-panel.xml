@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+	<!-- Cronograph -->
+	<model>
+		<name>crono</name>
+	</model>
+
+	<!-- CDI2 -->
+	<model>
+		<name>vor2</name>
+		<path>Aircraft/Instruments-3d/ki206/ki206.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.438 </y-m>
+			<z-m>  0.334 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Airspeed Indicator -->
+	<model>
+		<name>Airspeed Indicator 300</name>
+		<path>Aircraft/Instruments-3d/asi300/asi300-3d.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.353 </y-m>
+			<z-m>  0.424 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Turn Coordinator -->
+	<model>
+		<name>Turn Coordinator</name>
+		<path>Aircraft/Instruments-3d/tc/tc.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.353 </y-m>
+			<z-m>  0.334 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Autopilot -->
+	<!--model>
+      <path>Aircraft/Instruments-3d/kfc200/fd-control.xml</path>
+			<offsets>
+				<x-m>  0.395 </x-m>
+				<y-m>  0 </y-m>
+				<z-m>  0.527 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+  </model-->
+
+
+  <model><!-- Attitude Indicator -->
+      <path>Aircraft/Instruments-3d/kfc200/ki256.xml</path>
+			<offsets>
+				<x-m>  0.395 </x-m>
+				<y-m> -0.259 </y-m>
+				<z-m>  0.424 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+  </model>
+
+  <model><!-- MFD -->
+      <path>Aircraft/Instruments-3d/kfc200/ki252a.xml</path>
+      <offsets>
+				<x-m>  0.395 </x-m>
+				<y-m> -0.259 </y-m>
+				<z-m>  0.321 </z-m>
+				<pitch-deg>0</pitch-deg>
+      </offsets>
+  </model>
+
+  <model><!-- Annunciator -->
+      <path>Aircraft/Instruments-3d/kfc200/fd-annun.xml</path>
+      <offsets>
+				<x-m>  0.395 </x-m>
+				<y-m> -0.259 </y-m>
+				<z-m>  0.494 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+  </model>
+	
+	<!-- Altimeter -->
+	<model>
+		<name>Altimeter</name>
+		<path>Aircraft/Instruments-3d/alt/alt.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.166 </y-m>
+			<z-m>  0.426 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Vertical Speed Indicator -->
+	<model>
+		<name>VSI 1 guage</name>
+		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.166 </y-m>
+			<z-m>  0.335 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- MFD -->
+	<!--model>
+		<name>kns80</name>
+		<path>Aircraft/Instruments-3d/primus-1000/MFD/MFD.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m>  0.526 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model-->
+	
+	<model><!-- Altitude Selector -->
+      <path>Aircraft/Instruments-3d/kfc200/kas297.xml</path>
+      <offsets>
+      	<x-m>  0.395 </x-m>
+				<y-m> -0.169 </y-m>
+				<z-m>  0.494 </z-m>
+				<pitch-deg>0</pitch-deg>
+      </offsets>
+  </model>
+
+	<model><!-- kma20 -->
+      <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
+			<offsets>
+				<x-m>  0.390 </x-m>
+				<y-m>  0.000 </y-m>
+				<z-m>  0.522 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+  </model>
+
+
+	<model><!-- Radar -->
+      <path>Aircraft/Instruments-3d/RDR-160/RDR-160.xml</path>
+			<offsets>
+				<x-m>  0.395 </x-m>
+				<y-m>  0.000 </y-m>
+				<z-m>  0.440 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+  </model>
+
+	<!-- Radio 1 -->
+	<model>
+		<name>kx165-1</name>
+		<path>Aircraft/Instruments-3d/kx165/kx165-1.xml</path>
+		<offsets>
+			<x-m>  0.385 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m>  0.353 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Radio 2 -->
+	<model>
+		<name>kx165-2</name>
+		<path>Aircraft/Instruments-3d/kx165/kx165-2.xml</path>
+		<offsets>
+			<x-m>  0.385 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m>  0.300 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Autopilot -->	
+	<model>
+      <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
+			<offsets>
+				<x-m>  0.385 </x-m>
+				<y-m>  0.001 </y-m>
+				<z-m>  0.251 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+	</model>
+	
+
+	<!-- Throttle Quadrant -->	
+	<!--model>
+      <path>Aircraft/Instruments-3d/quadrant/quadrant.xml</path>
+			<offsets>
+				<x-m>  0.400 </x-m>
+				<y-m>  0.000 </y-m>
+				<z-m>  0.151 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+	</model-->
+	
+	<!-- Left Pedals -->	
+
+	<!-- Right Pedals -->
+	
+</PropertyList>

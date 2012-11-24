@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<sim>
+		
+		<!-- Basic Details -->
+		<description>Piper Dakota</description>
+		<aircraft-version>0.0.1</aircraft-version>
+		<author>Kaleb Heitzman</author>
+		<flight-model>yasim</flight-model>
+		<aero>pa28-236</aero>
+
+		<view>
+		  <name>Cockpit View</name>
+	    <type>lookfrom</type>
+	    <internal type="bool">true</internal>
+	    <config>
+	      <from-model type="bool">true</from-model>
+	      <from-model-idx type="int">0</from-model-idx>
+				<x-offset-m type="double"> -0.25 </x-offset-m>
+				<y-offset-m type="double">  0.58 </y-offset-m>
+				<z-offset-m type="double">  1.26 </z-offset-m>
+	    </config>
+	  </view>
+		
+		<!-- Status and Rating -->
+		<status>development</status>
+		<rating>
+			<FDM type="int">2</FDM>
+			<systems type="int">0</systems>
+			<cockpit type="int">0</cockpit>
+			<model type="int">1</model>
+		</rating>
+		
+		<!-- Splash Details -->
+		<startup>
+			<splash-texture>Aircraft/pa28-236/Splashes/splash.png</splash-texture>
+			<splash-title>Piper Dakota</splash-title>
+		</startup>
+		
+		<!-- Model Details -->
+		<model>
+			<path>Aircraft/pa28-236/Models/pa28-236.xml</path>
+		</model>		
+		
+		<!-- Sound Details -->
+		<sound>
+			<path>Aircraft/pa28-236/pa28-236-sound.xml</path>
+		</sound>
+		
+		<!-- Autopilot Details -->
+		<autopilot>
+			<path></path>
+		</autopilot>
+		
+		<!-- Flaps -->
+		<flaps>
+    	<setting>0.00</setting>
+    	<setting>0.5</setting> <!-- 15 deg -->
+    	<setting>1.00</setting> <!-- 30 deg -->
+  	</flaps>
+
+		<!-- Menubar -->
+		<menubar include="Dialogs/pa28-236-menu.xml" />
+
+		<!-- Weights -->
+		<weight n="0">
+      <name>Pilot</name>
+      <weight-lb>200</weight-lb>
+      <max-lb>250</max-lb>
+      <min-lb>100</min-lb>
+    </weight>
+
+    <weight n="1">
+      <name>Passenger</name>
+      <weight-lb>200</weight-lb>
+      <max-lb>250</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+
+    <weight n="2">
+      <name>Cargo</name>
+      <weight-lb>0</weight-lb>
+      <max-lb>250</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+		
+	</sim>
+	
+	<nasal>
+		<pa28-236>
+      <file>Aircraft/pa28-236/Models/Instruments/kfc200/kfc-200.nas</file>
+    </pa28-236>
+		<radar>
+        <file>Aircraft/Instruments-3d/RDR-160/RDR160.nas</file>
+    </radar>
+    <systems>
+        <file>Aircraft/Instruments-3d/kns80/KNS80.nas</file>
+    </systems>
+	</nasal>
+	
+</PropertyList>
