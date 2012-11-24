@@ -6,8 +6,8 @@
 		<description>Piper Dakota</description>
 		<aircraft-version>0.0.1</aircraft-version>
 		<author>Kaleb Heitzman</author>
-		<flight-model>jsb</flight-model>
-		<aero>pa28-236</aero>
+		<flight-model>yasim</flight-model>
+		<aero>pa28-236-yasim</aero>
 
 		<view>
 		  <name>Cockpit View</name>
@@ -16,9 +16,9 @@
 	    <config>
 	      <from-model type="bool">true</from-model>
 	      <from-model-idx type="int">0</from-model-idx>
-				<x-offset-m type="double"> -0.55 </x-offset-m>
-				<y-offset-m type="double">  0.58 </y-offset-m>
-				<z-offset-m type="double">  1.26 </z-offset-m>
+				<x-offset-m type="double"> -0.30 </x-offset-m>
+				<y-offset-m type="double">  0.36 </y-offset-m>
+				<z-offset-m type="double">  2.20 </z-offset-m>
 	    </config>
 	  </view>
 		
@@ -26,9 +26,9 @@
 		<status>development</status>
 		<rating>
 			<FDM type="int">2</FDM>
-			<systems type="int">0</systems>
+			<systems type="int">1</systems>
 			<cockpit type="int">0</cockpit>
-			<model type="int">1</model>
+			<model type="int">2</model>
 		</rating>
 		
 		<!-- Splash Details -->
@@ -64,29 +64,34 @@
 
 		<!-- Weights -->
 		<weight n="0">
-      <name>Pilot</name>
-      <weight-lb>200</weight-lb>
-      <max-lb>250</max-lb>
-      <min-lb>100</min-lb>
-    </weight>
-
-    <weight n="1">
-      <name>Passenger</name>
-      <weight-lb>200</weight-lb>
-      <max-lb>250</max-lb>
-      <min-lb>0</min-lb>
-    </weight>
-
-    <weight n="2">
-      <name>Cargo</name>
-      <weight-lb>0</weight-lb>
-      <max-lb>250</max-lb>
-      <min-lb>0</min-lb>
-    </weight>
+	    <name>Pilot</name>
+	    <weight-lb>170</weight-lb>
+	    <max-lb>300</max-lb>
+	  </weight>
+	  <weight n="1">
+	    <name>Copilot</name>
+	    <weight-lb>0</weight-lb>
+	    <max-lb>300</max-lb>
+	  </weight>
+	  <weight n="2">
+	    <name>Left Passenger</name>
+	    <weight-lb>0</weight-lb>
+	    <max-lb>300</max-lb>
+	  </weight>
+	  <weight n="3">
+	    <name>Right Passenger</name>
+	    <weight-lb>0</weight-lb>
+	    <max-lb>300</max-lb>
+	  </weight>
+	  <weight n="4">
+	    <name>Baggage</name>
+	    <weight-lb>200</weight-lb>
+	    <max-lb>200</max-lb>
+	  </weight>
 		
 	</sim>
 	
-	<nasal>
+	<!--nasal>
 		<pa28-236>
       <file>Aircraft/pa28-236/Models/Instruments/kfc200/kfc-200.nas</file>
     </pa28-236>
@@ -96,6 +101,6 @@
     <systems>
         <file>Aircraft/Instruments-3d/kns80/KNS80.nas</file>
     </systems>
-	</nasal>
+	</nasal-->
 	
 </PropertyList>
