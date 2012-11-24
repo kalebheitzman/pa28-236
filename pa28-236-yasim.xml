@@ -161,27 +161,26 @@
 </propeller>
 
 <!-- Wheels -->
-<gear x="-0.84" y="0" z="-1.36" compression=".010"> <!-- nose -->
+<gear x="-0.84" y="0" z="-1.38" compression=".15"> <!-- nose -->
   <control-input axis="/controls/flight/rudder" control="STEER"
                  src0="-1.0" src1="1.0"
                  dst0="-0.1" dst1="0.1"/>
 </gear>
 
-<gear x="-2.77504" y="1.5" z="-1.36" compression="0.10"> <!-- left main -->
+<gear x="-2.77504" y="1.5" z="-1.38" compression=".15"> <!-- left main -->
   <control-input axis="/controls/gear/brake-left" control="BRAKE" split="true"/>
   <control-input axis="/controls/gear/brake-parking" control="BRAKE" split="true"/>
 </gear>
 
-<gear x="-2.77504" y="-1.5" z="-1.36" compression="0.10"> <!-- right main -->
+<gear x="-2.77504" y="-1.5" z="-1.38" compression=".15"> <!-- right main -->
   <control-input axis="/controls/gear/brake-right" control="BRAKE" split="true"/>
   <control-input axis="/controls/gear/brake-parking" control="BRAKE" split="true"/>
 </gear>
 
-<!-- Fuel Tanks -->
 <tank x="-2.4" y="1.5" z="-0.45" capacity="321"/> 
 <tank x="-2.4" y="-1.5" z="-0.45" capacity="321"/> 
 
-<ballast x="-2.9" y="0" z="0" mass="400"/> <!-- cockpit -->
+<ballast x="-2.4" y="0" z="0" mass="400"/> <!-- cockpit -->
 
 <!-- Pilot, copilot, left passenger, right passenger, baggage -->
 <weight x="-2.15" y=".30" z="0" mass-prop="/sim/weight[0]/weight-lb"/>
