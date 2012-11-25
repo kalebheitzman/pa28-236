@@ -16,7 +16,7 @@
       <pitch-offset-deg>-14</pitch-offset-deg>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <limits>
-        <enabled type="bool">false</enabled>
+        <enabled type="bool">true</enabled>
       </limits>
     </config>
   </view>
@@ -55,8 +55,8 @@
   </view>
 
   <view n="100">
-    <name>Copilot View</name>
-    <enabled type="bool">false</enabled>
+    <name>Backseat Right View</name>
+    <enabled type="bool">true</enabled>
     <type>lookfrom</type>
     <internal type="bool">true</internal>
     <config>
@@ -75,25 +75,31 @@
       <right-direction-deg type="double">270</right-direction-deg>
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z = right/up/back ( Blender/FG equivalent: y/z/x) -->
-      <x-offset-m type="double">0.280</x-offset-m>
-      <y-offset-m type="double">0.540</y-offset-m>
-      <z-offset-m type="double">2.270</z-offset-m>
+      <x-offset-m type="double">  0.29 </x-offset-m><!-- Left and Right -->
+      <y-offset-m type="double">  0.39 </y-offset-m><!-- Up and Down -->
+      <z-offset-m type="double">  2.80 </z-offset-m><!-- Forward and Back -->
       <pitch-offset-deg>-14</pitch-offset-deg>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <limits>
-        <enabled type="bool">false</enabled>
+        <enabled type="bool">true</enabled>
       </limits>
     </config>
   </view>
 
   <view n="101">
-    <name>Backseat Right View</name>
-    <enabled type="bool">false</enabled>
+    <name>Copilot View</name>
+    <enabled type="bool">true</enabled>
     <type>lookfrom</type>
     <internal type="bool">true</internal>
     <config>
       <from-model type="bool">true</from-model>
       <from-model-idx type="int">0</from-model-idx>
+      <!-- x/y/z = right/up/back ( Blender/FG equivalent: y/z/x) -->
+      <x-offset-m type="double">  0.29 </x-offset-m><!-- Left and Right -->
+      <y-offset-m type="double">  0.39 </y-offset-m><!-- Up and Down -->
+      <z-offset-m type="double">  2.00 </z-offset-m><!-- Forward and Back -->
+      <pitch-offset-deg>-14</pitch-offset-deg>
+      <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <default-pitch-deg type="double">0</default-pitch-deg>
@@ -106,16 +112,13 @@
       <back-right-direction-deg type="double">225</back-right-direction-deg>
       <right-direction-deg type="double">270</right-direction-deg>
       <front-right-direction-deg type="double">315</front-right-direction-deg>
-      <!-- x/y/z = right/up/back ( Blender/FG equivalent: y/z/x) -->
-      <x-offset-m type="double">0.280</x-offset-m>
-      <y-offset-m type="double">0.570</y-offset-m>
-      <z-offset-m type="double">3.270</z-offset-m>
       <pitch-offset-deg>-14</pitch-offset-deg>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <limits>
-        <enabled type="bool">false</enabled>
+        <enabled type="bool">true</enabled>
       </limits>
     </config>
   </view>
+
 
 </PropertyList>
