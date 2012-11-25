@@ -7,7 +7,7 @@
 		<aircraft-version>0.0.1</aircraft-version>
 		<author>Kaleb Heitzman</author>
 		<flight-model>yasim</flight-model>
-		<aero>pa28-236-yasim</aero>
+		<aero>pa28-236</aero>
 
 		<view>
 		  <name>Cockpit View</name>
@@ -17,7 +17,7 @@
 	      <from-model type="bool">true</from-model>
 	      <from-model-idx type="int">0</from-model-idx>
 				<x-offset-m type="double"> -0.30 </x-offset-m>
-				<y-offset-m type="double">  0.36 </y-offset-m>
+				<y-offset-m type="double">  0.26 </y-offset-m>
 				<z-offset-m type="double">  2.20 </z-offset-m>
 	    </config>
 	  </view>
