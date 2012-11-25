@@ -35,9 +35,9 @@
 		</sound>
 		
 		<!-- Autopilot Details -->
-		<autopilot>
+		<!--autopilot>
 			<path></path>
-		</autopilot>
+		</autopilot-->
 		
 		<!-- Flaps -->
 		<flaps>
@@ -77,7 +77,11 @@
 	  </weight>
 		
 	</sim>
-	
+
+	<instrumentation>
+		<kma20 include="Aircraft/Instruments-3d/kma20/kma20init.xml" />
+	</instrumentation>
+
 	<!--nasal>
 		<pa28-236>
       <file>Aircraft/pa28-236/Models/Instruments/kfc200/kfc-200.nas</file>

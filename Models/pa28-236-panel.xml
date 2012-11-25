@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <PropertyList>
 
+	<!-- 	LEFT PANEL
+
+				crono, asi, ai, alt, vor1
+				adf, tc, hi, vsi, vor2
+				fuel and oil
+				magnetos, mp, rpm -->		
+
 	<!-- Cronograph -->
 	<model>
 		<name>crono</name>
@@ -16,7 +23,7 @@
 	<!-- ADF -->
 	<model>
 		<name>ADF</name>
-		<path>Aircraft/Instruments-3d/kr87-adf/ki227-00.xml</path>
+		<path>Aircraft/Instruments-3d/kr87-adf/ki227-01.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.400 </y-m>
@@ -92,17 +99,6 @@
 				<pitch-deg>0</pitch-deg>
       </offsets>
   </model>
-
-  <!-- Yoke -->
-  <!--model>
-  	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
-  	<offsets>
-			<x-m>  0.396 </x-m>
-			<y-m> -0.216 </y-m>
-			<z-m>  0.244 </z-m>
-			<pitch-deg>0</pitch-deg>
-    </offsets>
-  </model-->
 
   <!-- Magnetos -->
   <model>
@@ -214,9 +210,18 @@
 
 
 
+	<!-- 	RIGHT PANEL
 
+				audio,
+				com1, nav1
+				com2, nav2
+				autopilot
 
-	<model><!-- kma20 -->
+				adf,
+				transponder-->
+
+	<!-- Audio KMA20 -->
+	<model>
       <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
 			<offsets>
 				<x-m>  0.370 </x-m>
@@ -281,7 +286,7 @@
 
 
 
-	<!-- Yoke -->
+	<!-- Right Yoke -->
   <!--model>
   	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
   	<offsets>
@@ -291,6 +296,18 @@
 			<pitch-deg>0</pitch-deg>
     </offsets>
   </model-->
+
+  <!-- Left Yoke -->
+  <!--model>
+  	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m> -0.216 </y-m>
+			<z-m>  0.244 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model-->
+
 
   <!-- EGT -->
 	<model>
