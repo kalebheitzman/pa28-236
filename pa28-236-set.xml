@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <PropertyList>
-	<sim>
+	<sim include="Systems/views.xml">
 		
 		<!-- Basic Details -->
 		<description>Piper Dakota</description>
@@ -17,7 +17,7 @@
 	      <from-model type="bool">true</from-model>
 	      <from-model-idx type="int">0</from-model-idx>
 				<x-offset-m type="double"> -0.30 </x-offset-m>
-				<y-offset-m type="double">  0.26 </y-offset-m>
+				<y-offset-m type="double">  0.33 </y-offset-m>
 				<z-offset-m type="double">  2.20 </z-offset-m>
 	    </config>
 	  </view>
