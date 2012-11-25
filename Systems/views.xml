@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <PropertyList>
 
-  <chase-distance-m type="double" archive="y">-15</chase-distance-m>
+  <chase-distance-m type="double">-15</chase-distance-m>
 
   <view n="0"> <!-- Pilot view -->
     <name>Cockpit</name>
     <type>lookfrom</type>
     <internal type="bool">true</internal>
     <config>
-      <!-- x/y/z = right/up/back ( Blender/FG equivalent: y/z/x) -->
-      <x-offset-m archive="y" type="double">-0.280</x-offset-m>
-      <y-offset-m archive="y" type="double">0.540</y-offset-m>
-      <z-offset-m archive="y" type="double">2.270</z-offset-m>
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <x-offset-m type="double"> -0.29 </x-offset-m><!-- Left and Right -->
+      <y-offset-m type="double">  0.39 </y-offset-m><!-- Up and Down -->
+      <z-offset-m type="double">  2.00 </z-offset-m><!-- Forward and Back -->
       <pitch-offset-deg>-14</pitch-offset-deg>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <limits>
@@ -22,34 +23,34 @@
 
   <view n="1"> <!-- Helicopter view -->
     <config>
-      <target-z-offset-m archive="y">3</target-z-offset-m>
+      <target-z-offset-m>3</target-z-offset-m>
     </config>
   </view>
 
   <view n="2"> <!-- Chase view -->
     <config>
       <default-field-of-view-deg type="double">47.0</default-field-of-view-deg>
-      <target-z-offset-m archive="y">3</target-z-offset-m>
-      <target-y-offset-m archive="y">0</target-y-offset-m>
+      <target-z-offset-m>3</target-z-offset-m>
+      <target-y-offset-m>0</target-y-offset-m>
       <pitch-offset-deg>-12</pitch-offset-deg>
     </config>
   </view>
 
   <view n="5"> <!-- Chase no yaw -->
     <config>
-     <target-z-offset-m archive="y">3</target-z-offset-m>
+     <target-z-offset-m>3</target-z-offset-m>
     </config>
   </view>
 
   <view n="6"> <!-- Flyby view -->
     <config>
-     <target-z-offset-m archive="y">3</target-z-offset-m>
+     <target-z-offset-m>3</target-z-offset-m>
     </config>
   </view>
 
   <view n="7"> <!-- Model view -->
     <config>
-     <target-z-offset-m archive="y">3</target-z-offset-m>
+     <target-z-offset-m>3</target-z-offset-m>
     </config>
   </view>
 
@@ -74,9 +75,9 @@
       <right-direction-deg type="double">270</right-direction-deg>
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z = right/up/back ( Blender/FG equivalent: y/z/x) -->
-      <x-offset-m archive="y" type="double">0.280</x-offset-m>
-      <y-offset-m archive="y" type="double">0.540</y-offset-m>
-      <z-offset-m archive="y" type="double">2.270</z-offset-m>
+      <x-offset-m type="double">0.280</x-offset-m>
+      <y-offset-m type="double">0.540</y-offset-m>
+      <z-offset-m type="double">2.270</z-offset-m>
       <pitch-offset-deg>-14</pitch-offset-deg>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <limits>
@@ -106,9 +107,9 @@
       <right-direction-deg type="double">270</right-direction-deg>
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z = right/up/back ( Blender/FG equivalent: y/z/x) -->
-      <x-offset-m archive="y" type="double">0.280</x-offset-m>
-      <y-offset-m archive="y" type="double">0.570</y-offset-m>
-      <z-offset-m archive="y" type="double">3.270</z-offset-m>
+      <x-offset-m type="double">0.280</x-offset-m>
+      <y-offset-m type="double">0.570</y-offset-m>
+      <z-offset-m type="double">3.270</z-offset-m>
       <pitch-offset-deg>-14</pitch-offset-deg>
       <default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
       <limits>

@@ -8,19 +8,6 @@
 		<author>Kaleb Heitzman</author>
 		<flight-model>yasim</flight-model>
 		<aero>pa28-236</aero>
-
-		<view>
-		  <name>Cockpit View</name>
-	    <type>lookfrom</type>
-	    <internal type="bool">true</internal>
-	    <config>
-	      <from-model type="bool">true</from-model>
-	      <from-model-idx type="int">0</from-model-idx>
-				<x-offset-m type="double"> -0.30 </x-offset-m>
-				<y-offset-m type="double">  0.33 </y-offset-m>
-				<z-offset-m type="double">  2.20 </z-offset-m>
-	    </config>
-	  </view>
 		
 		<!-- Status and Rating -->
 		<status>development</status>
