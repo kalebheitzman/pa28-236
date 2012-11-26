@@ -27,33 +27,17 @@
 		<!-- Model Details -->
 		<model>
 			<path>Aircraft/pa28-236/Models/pa28-236.xml</path>
-		</model>
-    <panel>
-      <visibility>false</false>
-    </panel>
-
-    <!-- Systems -->
-    <systems>
-      <autopilot>
-        <name>autopilot helpers</name>
-        <path>Aircraft/Generic/generic-autopilot-helper.xml</path>
-      </autopilot>
-      <autopilot>
-        <path>Aircraft/pa28-236/Systems/kap140.xml</path>
-      </autopilot>
-      <autopilot>
-        <name>FiltersOnly</name>
-        <path>Aircraft/c172p/Systems/NAVandGSfilters.xml</path>
-      </autopilot>
-      <electrical>
-        <path></path>
-      </electrical>
-    </systems>
+		</model>		
 		
 		<!-- Sound Details -->
 		<sound>
 			<path>Aircraft/pa28-236/pa28-236-sound.xml</path>
 		</sound>
+		
+		<!-- Autopilot Details -->
+		<autopilot>
+			<path></path>
+		</autopilot>
 		
 		<!-- Flaps -->
 		<flaps>
@@ -93,20 +77,17 @@
 	  </weight>
 		
 	</sim>
-
-  <!-- Instruments -->
-	<instrumentation>
-		<kma20 include="Aircraft/Instruments-3d/kma20/kma20init.xml" />
-	</instrumentation>
-
-  <!-- Nasal Scripts -->
-	<nasal>
-	  <pa28>
-	    <file>Aircraft/pa28-161/Nasal/pa28.nas</file>
-	  </pa28>
-	  <kap140>
-	    <file>Aircraft/Generic/kap140.nas</file>
-	  </kap140>
-	</nasal>
+	
+	<!--nasal>
+		<pa28-236>
+      <file>Aircraft/pa28-236/Models/Instruments/kfc200/kfc-200.nas</file>
+    </pa28-236>
+		<radar>
+        <file>Aircraft/Instruments-3d/RDR-160/RDR160.nas</file>
+    </radar>
+    <systems>
+        <file>Aircraft/Instruments-3d/kns80/KNS80.nas</file>
+    </systems>
+	</nasal-->
 	
 </PropertyList>
