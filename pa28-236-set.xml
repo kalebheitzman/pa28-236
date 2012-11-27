@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
+<!--
+*****************************************************************************
+YASim PA28-236 with 3D cockpit.
+
+Started November 20, 20012 by Kaleb Heitmzan, kalebheitzman@icloud.com
+*****************************************************************************
+-->
 <PropertyList>
 	<sim include="Systems/views.xml">
 		
-		<!-- Basic Details -->
 		<description>Piper Dakota</description>
 		<aircraft-version>0.0.1</aircraft-version>
 		<author>Kaleb Heitzman</author>
-		<flight-model>yasim</flight-model>
-		<aero>pa28-236</aero>
-		
-		<!-- Status and Rating -->
 		<status>development</status>
 		<rating>
 			<FDM type="int">2</FDM>
@@ -17,29 +19,27 @@
 			<cockpit type="int">0</cockpit>
 			<model type="int">2</model>
 		</rating>
+
+		<flight-model>yasim</flight-model>
+		<aero>pa28-236</aero>
 		
-		<!-- Splash Details -->
 		<startup>
 			<splash-texture>Aircraft/pa28-236/Splashes/splash.png</splash-texture>
 			<splash-title>Piper Dakota</splash-title>
 		</startup>
 		
-		<!-- Model Details -->
 		<model>
 			<path>Aircraft/pa28-236/Models/pa28-236.xml</path>
 		</model>		
 		
-		<!-- Sound Details -->
 		<sound>
 			<path>Aircraft/pa28-236/pa28-236-sound.xml</path>
 		</sound>
 		
-		<!-- Autopilot Details -->
-		<autopilot>
+		<!--autopilot>
 			<path></path>
-		</autopilot>
+		</autopilot-->
 		
-		<!-- Flaps -->
 		<flaps>
     	<setting>0.00</setting>
     	<setting>0.5</setting> <!-- 15 deg -->
@@ -89,5 +89,7 @@
         <file>Aircraft/Instruments-3d/kns80/KNS80.nas</file>
     </systems>
 	</nasal-->
+
+	<instrumentation inlcude="Systems/pa28-236-instrumentation.xml" />
 	
 </PropertyList>

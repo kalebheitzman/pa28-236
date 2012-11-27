@@ -219,7 +219,7 @@
 	<model><!-- kma20 -->
       <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
 			<offsets>
-				<x-m>  0.370 </x-m>
+				<x-m>  0.372 </x-m>
 				<y-m>  0.120 </y-m>
 				<z-m>  0.457 </z-m>
 				<pitch-deg>0</pitch-deg>
@@ -231,7 +231,7 @@
 		<name>kx165-1</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-1.xml</path>
 		<offsets>
-			<x-m>  0.370 </x-m>
+			<x-m>  0.372 </x-m>
 			<y-m>  0.120 </y-m>
 			<z-m>  0.410 </z-m>
 			<pitch-deg>0</pitch-deg>
@@ -243,7 +243,7 @@
 		<name>kx165-2</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-2.xml</path>
 		<offsets>
-			<x-m>  0.370 </x-m>
+			<x-m>  0.372 </x-m>
 			<y-m>  0.120 </y-m>
 			<z-m>  0.357 </z-m>
 			<pitch-deg>0</pitch-deg>
@@ -254,7 +254,7 @@
 	<model>
       <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
 			<offsets>
-				<x-m>  0.381 </x-m>
+				<x-m>  0.382 </x-m>
 				<y-m>  0.120 </y-m>
 				<z-m>  0.310 </z-m>
 				<pitch-deg>0</pitch-deg>
@@ -308,7 +308,7 @@
 	<model>
 	  <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
 		<offsets>
-			<x-m>  0.379 </x-m>
+			<x-m>  0.383 </x-m>
 			<y-m>  0.290 </y-m>
 			<z-m>  0.313 </z-m>
 			<pitch-deg>0</pitch-deg>
@@ -319,7 +319,7 @@
 	<model>
     <path>Aircraft/Instruments-3d/kr87-adf/kr87.xml</path>
 		<offsets>
-			<x-m>  0.381 </x-m>
+			<x-m>  0.383 </x-m>
 			<y-m>  0.290 </y-m>
 			<z-m>  0.350 </z-m>
 			<pitch-deg>0</pitch-deg>
