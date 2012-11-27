@@ -77,19 +77,19 @@ Started November 20, 20012 by Kaleb Heitmzan, kalebheitzman@icloud.com
 	  </weight>
 		
 	</sim>
-	
-	<!--nasal>
-		<pa28-236>
-      <file>Aircraft/pa28-236/Models/Instruments/kfc200/kfc-200.nas</file>
-    </pa28-236>
-		<radar>
-        <file>Aircraft/Instruments-3d/RDR-160/RDR160.nas</file>
-    </radar>
-    <systems>
-        <file>Aircraft/Instruments-3d/kns80/KNS80.nas</file>
-    </systems>
-	</nasal-->
 
 	<instrumentation inlcude="Systems/pa28-236-instrumentation.xml" />
 	
+	<nasal>
+    <pa28>
+      <file>Aircraft/pa28-236/Nasal/pa28-236.nas</file>
+    </pa28>
+  	<kap140>
+   		<file>Aircraft/Generic/kap140.nas</file>
+  	</kap140>
+  	<kr87>
+  		<file>Aircraft/pa28-236/Nasal/kr87.nas</file>
+    </kr87>
+ 	</nasal>
+
 </PropertyList>
