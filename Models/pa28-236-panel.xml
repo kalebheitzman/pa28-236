@@ -8,7 +8,7 @@
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.383 </y-m>
-			<z-m>  0.411 </z-m>
+			<z-m>  0.417 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -32,7 +32,7 @@
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.309 </y-m>
-			<z-m>  0.424 </z-m>
+			<z-m>  0.430 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -77,7 +77,7 @@
 			<offsets>
 				<x-m>  0.395 </x-m>
 				<y-m> -0.216 </y-m>
-				<z-m>  0.424 </z-m>
+				<z-m>  0.430 </z-m>
 				<pitch-deg>0</pitch-deg>
 			</offsets>
   </model>
@@ -133,7 +133,7 @@
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.123 </y-m>
-			<z-m>  0.426 </z-m>
+			<z-m>  0.430 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -157,7 +157,7 @@
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.033 </y-m>
-			<z-m>  0.426 </z-m>
+			<z-m>  0.430 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -173,6 +173,9 @@
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
+
+
+
 
 	<!-- Fuel and Oil -->
 	<model>
