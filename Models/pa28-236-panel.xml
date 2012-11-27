@@ -15,7 +15,7 @@
 
 	<!-- ADF -->
 	<model>
-		<name>ADF</name>
+		<name>adf</name>
 		<path>Aircraft/Instruments-3d/kr87-adf/ki227-00.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -25,9 +25,46 @@
 		</offsets>
 	</model>
 
+
+	<!-- Suction -->
+	<model>
+		<name>suc</name>
+		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.420 </y-m>
+			<z-m>  0.254 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Suction -->
+	<model>
+		<name>suc2</name>
+		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.360 </y-m>
+			<z-m>  0.254 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+		<!-- Suction -->
+	<model>
+		<name>suc3</name>
+		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.300 </y-m>
+			<z-m>  0.254 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
 	<!-- Airspeed Indicator -->
 	<model>
-		<name>Airspeed Indicator</name>
+		<name>asi</name>
 		<path>Aircraft/Instruments-3d/asi/asi.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -39,7 +76,7 @@
 
 	<!-- Turn Coordinator -->
 	<model>
-		<name>Turn Coordinator</name>
+		<name>tc</name>
 		<path>Aircraft/Instruments-3d/tc/tc.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -73,6 +110,7 @@
 
   <!-- Attitude Indicator -->
   <model>
+  	<name>ai</name>
       <path>Aircraft/Instruments-3d/ai/ai.xml</path>
 			<offsets>
 				<x-m>  0.395 </x-m>
@@ -84,6 +122,7 @@
 
   <!-- Heading Indicator -->
   <model>
+  		<name>hi</name>
       <path>Aircraft/Instruments-3d/hi/hi.xml</path>
       <offsets>
 				<x-m>  0.396 </x-m>
@@ -106,6 +145,7 @@
 
   <!-- Magnetos -->
   <model>
+  	<name>magnetos</name>
   	<path>Aircraft/Instruments-3d/magneto-switch/mags.xml</path>
   	<offsets>
 			<x-m>  0.396 </x-m>
@@ -117,6 +157,7 @@
 
   <!-- Pedals -->
   <model>
+  	<name>pedals</name>
   	<path>Aircraft/Instruments-3d/pedals/pedals.xml</path>
   	<offsets>
 			<x-m>  0.346 </x-m>
@@ -128,7 +169,7 @@
 	
 	<!-- Altimeter -->
 	<model>
-		<name>Altimeter</name>
+		<name>alt</name>
 		<path>Aircraft/Instruments-3d/alt/alt.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -140,7 +181,7 @@
 
 	<!-- Vertical Speed Indicator -->
 	<model>
-		<name>Vertical Speed Indicator</name>
+		<name>vsi</name>
 		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -152,7 +193,7 @@
 
 <!-- VOR 1 -->
 	<model>
-		<name>Vertical Speed Indicator</name>
+		<name>vor</name>
 		<path>Aircraft/Instruments-3d/vor/vor.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -164,7 +205,7 @@
 
 	<!-- VOR 2 -->
 	<model>
-		<name>Vertical Speed Indicator</name>
+		<name>vor2</name>
 		<path>Aircraft/Instruments-3d/vor/vor2.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -179,6 +220,7 @@
 
 	<!-- Fuel and Oil -->
 	<model>
+		<name>fuel</name>
 		<path>Aircraft/Instruments-3d/pa28-fuel-oil/pa28-fuel-oil.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -190,7 +232,7 @@
 
 	<!-- Manifold Pressure -->
 	<model>
-		<name>Manifold Pressure</name>
+		<name>mp</name>
 		<path>Aircraft/Instruments-3d/mp/mp.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -202,7 +244,7 @@
 
 	<!-- Tachometer -->
 	<model>
-		<name>Tachometer</name>
+		<name>tach</name>
 		<path>Aircraft/Instruments-3d/tach/tach.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
@@ -220,6 +262,7 @@
 
 
 	<model><!-- kma20 -->
+		<name>kma20</name>
       <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
 			<offsets>
 				<x-m>  0.370 </x-m>
@@ -255,6 +298,7 @@
 
 	<!-- ADF -->	
 	<model>
+		<name>adftuner</name>
     <path>Aircraft/Instruments-3d/kr87-adf/kr87.xml</path>
 		<offsets>
 			<x-m>  0.380 </x-m>
@@ -266,6 +310,7 @@
 
 	<!-- DME -->
 	<model>
+		<name>dme</name>
 		<path>Aircraft/Instruments-3d/ki266/ki266.xml</path>
 		<offsets>
 			<x-m>  0.383 </x-m>
@@ -277,6 +322,7 @@
 
 	<!-- kt70 transponder -->
 	<model>
+		<name>kt70</name>
 	  <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
 		<offsets>
 			<x-m>  0.383 </x-m>
@@ -288,6 +334,7 @@
 
 	<!-- Autopilot Tuner -->
 	<model>
+		<name>ap</name>
     <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
 		<offsets>
 			<x-m>  0.383 </x-m>

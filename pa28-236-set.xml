@@ -7,7 +7,7 @@ Started November 20, 20012 by Kaleb Heitmzan, kalebheitzman@icloud.com
 *****************************************************************************
 -->
 <PropertyList>
-	<sim include="Systems/views.xml">
+	<sim include="Systems/pa28-236-views.xml">
 		
 		<description>Piper Dakota</description>
 		<aircraft-version>0.0.1</aircraft-version>
