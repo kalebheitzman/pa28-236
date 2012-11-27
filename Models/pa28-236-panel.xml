@@ -219,9 +219,9 @@
 	<model><!-- kma20 -->
       <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
 			<offsets>
-				<x-m>  0.372 </x-m>
+				<x-m>  0.370 </x-m>
 				<y-m>  0.120 </y-m>
-				<z-m>  0.457 </z-m>
+				<z-m>  0.446 </z-m>
 				<pitch-deg>0</pitch-deg>
 			</offsets>
   </model>
@@ -231,9 +231,9 @@
 		<name>kx165-1</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-1.xml</path>
 		<offsets>
-			<x-m>  0.372 </x-m>
+			<x-m>  0.370 </x-m>
 			<y-m>  0.120 </y-m>
-			<z-m>  0.410 </z-m>
+			<z-m>  0.399 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -243,22 +243,55 @@
 		<name>kx165-2</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-2.xml</path>
 		<offsets>
-			<x-m>  0.372 </x-m>
+			<x-m>  0.370 </x-m>
 			<y-m>  0.120 </y-m>
-			<z-m>  0.357 </z-m>
+			<z-m>  0.348 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
 
-	<!-- Autopilot -->	
+	<!-- ADF -->	
 	<model>
-      <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
-			<offsets>
-				<x-m>  0.382 </x-m>
-				<y-m>  0.120 </y-m>
-				<z-m>  0.310 </z-m>
-				<pitch-deg>0</pitch-deg>
-			</offsets>
+    <path>Aircraft/Instruments-3d/kr87-adf/kr87.xml</path>
+		<offsets>
+			<x-m>  0.380 </x-m>
+			<y-m>  0.120 </y-m>
+			<z-m>  0.306 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- DME -->
+	<model>
+		<path>Aircraft/Instruments-3d/ki266/ki266.xml</path>
+		<offsets>
+			<x-m>  0.383 </x-m>
+			<y-m>  0.290 </y-m>
+			<z-m>  0.393 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- kt70 transponder -->
+	<model>
+	  <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
+		<offsets>
+			<x-m>  0.383 </x-m>
+			<y-m>  0.290 </y-m>
+			<z-m>  0.313 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!-- Autopilot Tuner -->
+	<model>
+    <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
+		<offsets>
+			<x-m>  0.383 </x-m>
+			<y-m>  0.290 </y-m>
+			<z-m>  0.350 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
 	</model>
 	
 
@@ -302,28 +335,5 @@
 			<pitch-deg>0</pitch-deg>
 		</offsets>
   </model>
-
-
-	<!-- kt70 transponder -->
-	<model>
-	  <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
-		<offsets>
-			<x-m>  0.383 </x-m>
-			<y-m>  0.290 </y-m>
-			<z-m>  0.313 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model>
-
-	<!-- ADF Tuner -->
-	<model>
-    <path>Aircraft/Instruments-3d/kr87-adf/kr87.xml</path>
-		<offsets>
-			<x-m>  0.383 </x-m>
-			<y-m>  0.290 </y-m>
-			<z-m>  0.350 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model>
 	
 </PropertyList>
