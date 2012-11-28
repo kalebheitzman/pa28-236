@@ -83,6 +83,7 @@ Started November 20, 20012 by Kaleb Heitmzan, kalebheitzman@icloud.com
 	<nasal>
     <pa28>
       <file>Aircraft/pa28-236/Nasal/pa28-236.nas</file>
+      <file>Aircraft/pa28-161/Nasal/kr87.nas</file>
       <file>Aircraft/pa28-161/Nasal/ki266.nas</file>
    		<script><![CDATA[ki266.new(0);]]></script>
     </pa28>

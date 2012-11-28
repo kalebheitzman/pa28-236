@@ -31,7 +31,7 @@
 		<path>Aircraft/pa28-236/Instruments/kr87-adf/ki227_228.xml</path>
 		<!--path>Aircraft/pa28-236/Instruments/kr87-adf/ki227-00.xml</path-->
 		<offsets>
-			<x-m>  0.395 </x-m>
+			<x-m>  0.392 </x-m>
 			<y-m> -0.400 </y-m>
 			<z-m>  0.336 </z-m>
 			<pitch-deg>0</pitch-deg>
