@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <PropertyList>
-
-	<kma20 include="Aircraft/Instruments-3d/kma20/kma20init.xml"/>
 	
 	<attitude-indicator>
 		<config>
@@ -9,8 +7,4 @@
 		</config>
 	</attitude-indicator>
 	
-	<encoder>
-		<serviceable type="bool">true</serviceable>
-	</encoder>
-
 </PropertyList>

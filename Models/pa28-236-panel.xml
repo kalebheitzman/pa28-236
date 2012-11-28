@@ -1,7 +1,20 @@
 <?xml version="1.0"?>
 <PropertyList>
 
-	<!-- Cronograph -->
+	<!-- Compass -->
+	<!--model>
+		<name>comp</name>
+		<path>Aircraft/Instruments-3d/comp/comp.xml</path>
+		<offsets>
+			<x-m>  0.408 </x-m>
+			<y-m> -0.070 </y-m>
+			<z-m>  0.517 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model-->	
+
+	<!-- TOP LEFT PANEL -->
+
 	<model>
 		<name>crono</name>
 		<path>Aircraft/Instruments-3d/clock/clock.xml</path>
@@ -13,10 +26,9 @@
 		</offsets>
 	</model>
 
-	<!-- ADF -->
 	<model>
 		<name>adf</name>
-		<path>Aircraft/Instruments-3d/kr87-adf/ki227-00.xml</path>
+		<path>Aircraft/pa28-236/Instruments/kr87-adf/ki227-00.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.400 </y-m>
@@ -25,44 +37,6 @@
 		</offsets>
 	</model>
 
-
-	<!-- Suction -->
-	<model>
-		<name>suc</name>
-		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
-		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.420 </y-m>
-			<z-m>  0.254 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model>
-
-	<!-- Suction -->
-	<model>
-		<name>suc2</name>
-		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
-		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.360 </y-m>
-			<z-m>  0.254 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model>
-
-		<!-- Suction -->
-	<model>
-		<name>suc3</name>
-		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
-		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.300 </y-m>
-			<z-m>  0.254 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model>
-
-	<!-- Airspeed Indicator -->
 	<model>
 		<name>asi</name>
 		<path>Aircraft/Instruments-3d/asi/asi.xml</path>
@@ -74,7 +48,6 @@
 		</offsets>
 	</model>
 
-	<!-- Turn Coordinator -->
 	<model>
 		<name>tc</name>
 		<path>Aircraft/Instruments-3d/tc/tc.xml</path>
@@ -86,29 +59,6 @@
 		</offsets>
 	</model>
 
-	<!-- Attitude Indicator -->
-	<!--model>
-	  <path>Aircraft/Instruments-3d/kfc200/ki256.xml</path>
-		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.216 </y-m>
-			<z-m>  0.429 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-  </model-->
-
-  <!-- Heading Indicator -->
-  <!--model>
-      <path>Aircraft/Instruments-3d/kfc200/ki252a.xml</path>
-      <offsets>
-				<x-m>  0.396 </x-m>
-				<y-m> -0.216 </y-m>
-				<z-m>  0.328 </z-m>
-				<pitch-deg>0</pitch-deg>
-      </offsets>
-  </model-->
-
-  <!-- Attitude Indicator -->
   <model>
   	<name>ai</name>
       <path>Aircraft/Instruments-3d/ai/ai.xml</path>
@@ -120,7 +70,6 @@
 			</offsets>
   </model>
 
-  <!-- Heading Indicator -->
   <model>
   		<name>hi</name>
       <path>Aircraft/Instruments-3d/hi/hi.xml</path>
@@ -132,30 +81,6 @@
       </offsets>
   </model>
 
-  <!-- Yoke -->
-  <!--model>
-  	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
-  	<offsets>
-			<x-m>  0.396 </x-m>
-			<y-m> -0.216 </y-m>
-			<z-m>  0.244 </z-m>
-			<pitch-deg>0</pitch-deg>
-    </offsets>
-  </model-->
-
-  <!-- Magnetos -->
-  <model>
-  	<name>magnetos</name>
-  	<path>Aircraft/Instruments-3d/magneto-switch/mags.xml</path>
-  	<offsets>
-			<x-m>  0.396 </x-m>
-			<y-m> -0.216 </y-m>
-			<z-m>  0.196 </z-m>
-			<pitch-deg>0</pitch-deg>
-    </offsets>
-  </model>
-
-  <!-- Pedals -->
   <model>
   	<name>pedals</name>
   	<path>Aircraft/Instruments-3d/pedals/pedals.xml</path>
@@ -167,10 +92,9 @@
     </offsets>
   </model>
 	
-	<!-- Altimeter -->
 	<model>
 		<name>alt</name>
-		<path>Aircraft/Instruments-3d/alt/alt.xml</path>
+		<path>Aircraft/Instruments-3d/alt-2/alt2-3d.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.123 </y-m>
@@ -179,7 +103,6 @@
 		</offsets>
 	</model>
 
-	<!-- Vertical Speed Indicator -->
 	<model>
 		<name>vsi</name>
 		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
@@ -191,10 +114,9 @@
 		</offsets>
 	</model>
 
-<!-- VOR 1 -->
 	<model>
-		<name>vor</name>
-		<path>Aircraft/Instruments-3d/vor/vor.xml</path>
+		<name>vor1</name>
+		<path>Aircraft/pa28-236/Instruments/ki206/ki206_1.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.033 </y-m>
@@ -203,10 +125,9 @@
 		</offsets>
 	</model>
 
-	<!-- VOR 2 -->
 	<model>
 		<name>vor2</name>
-		<path>Aircraft/Instruments-3d/vor/vor2.xml</path>
+		<path>Aircraft/pa28-236/Instruments/ki206/ki206_2.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.033 </y-m>
@@ -217,8 +138,62 @@
 
 
 
+	<!-- BOTTOM LEFT PANEL -->
 
-	<!-- Fuel and Oil -->
+	<!--model>
+  	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m> -0.216 </y-m>
+			<z-m>  0.244 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model-->
+
+  <model>
+  	<name>magnetos</name>
+  	<path>Aircraft/Instruments-3d/magneto-switch/mags.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m> -0.216 </y-m>
+			<z-m>  0.196 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+	<model>
+		<name>suc</name>
+		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.420 </y-m>
+			<z-m>  0.254 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>suc2</name>
+		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.360 </y-m>
+			<z-m>  0.254 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<name>suc3</name>
+		<path>Aircraft/Instruments-3d/vac/vac.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.300 </y-m>
+			<z-m>  0.254 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
 	<model>
 		<name>fuel</name>
 		<path>Aircraft/Instruments-3d/pa28-fuel-oil/pa28-fuel-oil.xml</path>
@@ -230,7 +205,6 @@
 		</offsets>
 	</model>
 
-	<!-- Manifold Pressure -->
 	<model>
 		<name>mp</name>
 		<path>Aircraft/Instruments-3d/mp/mp.xml</path>
@@ -242,7 +216,6 @@
 		</offsets>
 	</model>
 
-	<!-- Tachometer -->
 	<model>
 		<name>tach</name>
 		<path>Aircraft/Instruments-3d/tach/tach.xml</path>
@@ -259,9 +232,9 @@
 
 
 
+	<!-- TOP RIGHT PANEL -->
 
-
-	<model><!-- kma20 -->
+	<model>
 		<name>kma20</name>
       <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
 			<offsets>
@@ -272,7 +245,6 @@
 			</offsets>
   </model>
 
-	<!-- Radio 1 -->
 	<model>
 		<name>kx165-1</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-1.xml</path>
@@ -284,7 +256,6 @@
 		</offsets>
 	</model>
 
-	<!-- Radio 2 -->
 	<model>
 		<name>kx165-2</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-2.xml</path>
@@ -296,10 +267,9 @@
 		</offsets>
 	</model>
 
-	<!-- ADF -->	
 	<model>
-		<name>adftuner</name>
-    <path>Aircraft/Instruments-3d/kr87-adf/kr87.xml</path>
+		<name>kr87</name>
+    <path>Aircraft/pa28-236/Instruments/kr87-adf/kr87.xml</path>
 		<offsets>
 			<x-m>  0.380 </x-m>
 			<y-m>  0.120 </y-m>
@@ -308,9 +278,8 @@
 		</offsets>
 	</model>
 
-	<!-- DME -->
 	<model>
-		<name>dme</name>
+		<name>ki266</name>
 		<path>Aircraft/Instruments-3d/ki266/ki266.xml</path>
 		<offsets>
 			<x-m>  0.383 </x-m>
@@ -320,7 +289,6 @@
 		</offsets>
 	</model>
 
-	<!-- kt70 transponder -->
 	<model>
 		<name>kt70</name>
 	  <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
@@ -333,7 +301,7 @@
 	</model>
 
 	<!-- Autopilot Tuner -->
-	<model>
+	<!--model>
 		<name>ap</name>
     <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
 		<offsets>
@@ -342,29 +310,11 @@
 			<z-m>  0.350 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
-	</model>
-	
-
-	<!-- Throttle Quadrant -->	
-	<!--model>
-      <path>Aircraft/Instruments-3d/quadrant/quadrant.xml</path>
-			<offsets>
-				<x-m>  0.400 </x-m>
-				<y-m>  0.000 </y-m>
-				<z-m>  0.151 </z-m>
-				<pitch-deg>0</pitch-deg>
-			</offsets>
 	</model-->
 	
-	<!-- Left Pedals -->	
 
-	<!-- Right Pedals -->
+	<!-- BOTTOM LEFT PANEL -->
 
-
-
-
-
-	<!-- Yoke -->
   <!--model>
   	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
   	<offsets>
@@ -375,7 +325,6 @@
     </offsets>
   </model-->
 
-  <!-- EGT -->
 	<model>
 	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
 		<offsets>
