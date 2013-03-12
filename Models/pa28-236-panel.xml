@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <PropertyList>
 
+
 	<!-- Compass -->
 	<!--model>
 		<name>comp</name>
@@ -142,7 +143,7 @@
 
 	<!-- BOTTOM LEFT PANEL -->
 
-	<!--model><!-- Pilot Yoke -->
+	<!--model>
   	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
   	<offsets>
 			<x-m>  0.396 </x-m>
