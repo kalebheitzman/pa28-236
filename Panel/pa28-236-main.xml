@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+	<name>pa28-236-main</name>
+
+	<!-- TOP LEFT PANEL -->
+
+	<model><!-- Cronometer -->
+		<name>crono</name>
+		<path>Aircraft/Instruments-3d/clock/clock.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.383 </y-m>
+			<z-m>  0.417 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- ADF -->
+		<name>ki227</name>
+		<path>Aircraft/pa28-236/Instruments/kr87-adf/ki227_228.xml</path>
+		<offsets>
+			<x-m>  0.388 </x-m>
+			<y-m> -0.400 </y-m>
+			<z-m>  0.336 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Airspeed Indicator -->
+		<name>asi</name>
+		<path>Aircraft/Instruments-3d/asi/asi.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.309 </y-m>
+			<z-m>  0.430 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Turn Coordinator -->
+		<name>tc</name>
+		<path>Aircraft/Instruments-3d/tc/tc.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.309 </y-m>
+			<z-m>  0.334 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+  <model><!-- Altitude Indicator -->
+  	<name>ai</name>
+      <path>Aircraft/Instruments-3d/ai/ai.xml</path>
+			<offsets>
+				<x-m>  0.395 </x-m>
+				<y-m> -0.216 </y-m>
+				<z-m>  0.430 </z-m>
+				<pitch-deg>0</pitch-deg>
+			</offsets>
+  </model>
+
+  <model><!-- Horizontal Situation Indicator -->
+  		<name>hi</name>
+      <path>Aircraft/Instruments-3d/hi/hi.xml</path>
+      <offsets>
+				<x-m>  0.396 </x-m>
+				<y-m> -0.216 </y-m>
+				<z-m>  0.334 </z-m>
+				<pitch-deg>0</pitch-deg>
+      </offsets>
+  </model>
+	
+	<model><!-- Altimeter -->
+		<name>alt</name>
+		<path>Aircraft/Instruments-3d/alt-2/alt2-3d.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.123 </y-m>
+			<z-m>  0.430 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Vertical Speed Indicator -->
+		<name>vsi</name>
+		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.123 </y-m>
+			<z-m>  0.335 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- VOR1 -->
+		<name>vor1</name>
+		<path>Aircraft/pa28-236/Instruments/ki206/ki206_1.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.033 </y-m>
+			<z-m>  0.430 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- VOR2 -->
+		<name>vor2</name>
+		<path>Aircraft/pa28-236/Instruments/ki206/ki206_2.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.033 </y-m>
+			<z-m>  0.335 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<!--model--><!-- Pilot Yoke -->
+  	<!--path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m> -0.216 </y-m>
+			<z-m>  0.244 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model-->
+
+	<!--model--><!-- Co-pilot Yoke -->
+  	<!--path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m>  0.216 </y-m>
+			<z-m>  0.244 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model-->
+
+	<model><!-- Systems Gauges -->
+		<name>sys1</name>
+		<path>Aircraft/Instruments-3d/pa28-fuel-oil/pa28-fuel-oil.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.340 </y-m>
+			<z-m>  0.265 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Systems Gauges -->
+		<name>sys2</name>
+		<path>Aircraft/Instruments-3d/pa28-fuel-oil/pa28-fuel-oil.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.093 </y-m>
+			<z-m>  0.265 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Century3 Autopilot -->
+		<name>autopilot</name>
+		<path>Aircraft/Instruments-3d/Century-III/CenturyIII.xml</path>
+		<offsets>
+			<x-m>  0.380 </x-m>
+			<y-m> -0.364 </y-m>
+			<z-m>  0.194 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Century3 Autopilot Mode -->
+  	<name>magnetos</name>
+  	<path>Aircraft/Instruments-3d/Century-III/AutopilotMode.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m> -0.252 </y-m>
+			<z-m>  0.210 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+	<model><!-- Magnetos -->
+  	<name>magnetos</name>
+  	<path>Aircraft/Instruments-3d/magneto-switch/mags.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m> -0.192 </y-m>
+			<z-m>  0.182 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+	<model><!-- Manifold Pressure -->
+		<name>mp</name>
+		<path>Aircraft/Instruments-3d/mp/mp.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.123 </y-m>
+			<z-m>  0.194 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- Tachometer -->
+		<name>tach</name>
+		<path>Aircraft/Instruments-3d/tach/tach.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.033 </y-m>
+			<z-m>  0.194 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	
+
+	<!-- BOTTOM LEFT PANEL -->
+
+  <!--model>
+  	<path>Aircraft/Instruments-3d/yoke/yoke.xml</path>
+  	<offsets>
+			<x-m>  0.396 </x-m>
+			<y-m>  0.216 </y-m>
+			<z-m>  0.244 </z-m>
+			<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model-->
+
+	<model>
+	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m>  0.205 </y-m>
+			<z-m>  0.185 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+  </model>
+	
+</PropertyList>
