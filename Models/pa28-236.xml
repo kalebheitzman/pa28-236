@@ -178,8 +178,7 @@
     </axis>
   </animation>
 
-  <!-- Main Panel -->
-	<model>
+	<model><!-- Aviation Instruments -->
 		<name>panel</name>
 		<path>Aircraft/pa28-236/Panel/pa28-236-main.xml</path>
 		<offsets>
@@ -190,10 +189,20 @@
 		</offsets>
 	</model>
 
-  <!-- Radios -->
-  <model>
-    <name>panel</name>
+  <model><!-- Radios -->
+    <name>radios</name>
     <path>Aircraft/pa28-236/Panel/pa28-236-radios.xml</path>
+    <offsets>
+      <x-m>  1.13 </x-m>
+      <y-m> -0.07 </y-m>
+      <z-m> -0.23 </z-m>
+      <pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+
+  <model><!-- Switches -->
+    <name>switches</name>
+    <path>Aircraft/pa28-236/Panel/pa28-236-switch-panel.xml</path>
     <offsets>
       <x-m>  1.13 </x-m>
       <y-m> -0.07 </y-m>
