@@ -202,11 +202,11 @@
 
   <model><!-- Switches -->
     <name>switches</name>
-    <path>Aircraft/pa28-236/Panel/pa28-236-switch-panel.xml</path>
+    <path>Aircraft/pa28-236/Instruments/switch-panel/SwitchPanel.xml</path>
     <offsets>
-      <x-m>  1.13 </x-m>
-      <y-m> -0.05 </y-m>
-      <z-m> -0.23 </z-m>
+      <x-m>  1.515 </x-m>
+      <y-m>  0.080 </y-m>
+      <z-m>  0.024 </z-m>
       <pitch-deg>0</pitch-deg>
     </offsets>
   </model>

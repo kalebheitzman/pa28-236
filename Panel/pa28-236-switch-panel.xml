@@ -3,7 +3,7 @@
 <PropertyList>
 
   <model><!-- Switches -->
-    <name>kt70</name>
+    <name>switches</name>
     <path>Aircraft/pa28-236/Instruments/switch-panel/SwitchPanel.xml</path>
     <offsets>
       <x-m>  0.385 </x-m>
@@ -15,7 +15,7 @@
 
   <panel>
     <name>Switch-Panel</name>
-    <background>Aircraft/pa28-161/Panel/transparent-bg.rgb</background>
+    <background>Aircraft/pa28-236/Panel/transparent-bg.rgb</background>
     <w>174</w>
     <h>40</h>
 
@@ -273,24 +273,7 @@
    <z-m>-0.0</z-m>
   </center>
  </animation>
-<!--
-  <animation>
-  <type>rotate</type>
-  <object-name>TurnBankToggle</object-name>
-  <property>instrumentation/turn-indicator/serviceable</property>
-  <factor>40</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-<center>
- <x-m>2.125</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.028</z-m>
-</center>
- </animation>
--->
+
   <animation>
   <type>rotate</type>
   <object-name>AntiCollLight.Fin</object-name>
