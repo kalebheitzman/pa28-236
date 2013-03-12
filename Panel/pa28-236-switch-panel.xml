@@ -1,345 +1,162 @@
-<?xml version="1.0"?>
-
+<!-- <?xml version="1.0"?>
+<!DOCTYPE PropertyList SYSTEM "panel.dtd">
 <PropertyList>
 
-  <model><!-- Switches -->
-    <name>switches</name>
-    <path>Aircraft/pa28-236/Instruments/switch-panel/SwitchPanel.xml</path>
-    <offsets>
-      <x-m>  0.385 </x-m>
-      <y-m>  0.130 </y-m>
-      <z-m>  0.253 </z-m>
-      <pitch-deg>0</pitch-deg>
-    </offsets>
-  </model>
+  <name>Switch-Panel Panel</name>
+  <background>Aircraft/pa28-236/Panel/transparent-bg.rgb</background>
+  <w>174</w>
+  <h>40</h>
 
-  <panel>
-    <name>Switch-Panel</name>
-    <background>Aircraft/pa28-236/Panel/transparent-bg.rgb</background>
-    <w>174</w>
-    <h>40</h>
+  <instruments>
 
-    <instruments>
-
-      <instrument>
-        <name>panel hotspots</name>
-        <x>87</x>
-        <y>20</y>
-        <w>174</w>
-        <h>40</h>
-        <w-base>174</w-base>
-        <h-base>40</h-base>
-
-        <actions> 
-
-          <action>
-            <name>toggle nav-lights</name>
-            <button>0</button>
-            <x>-77</x>
-            <y>-20</y>
-            <w>12</w>
-            <h>40</h>
-            <binding>
-              <command>nasal</command>
-              <script>pa28.nav_light_switch()</script>
-            </binding>
-          </action>
-         
-          <action>
-            <name>battery switch</name>
-            <button>0</button>
-            <x>-62</x>
-            <y>-20</y>
-            <w>12</w>
-            <h>40</h>
-            <binding>
-              <command>nasal</command>
-              <script>pa28.battery_switch()</script>
-            </binding>
-          </action>
-          
-          <action>
-            <name>alternator switch</name>
-            <button>0</button>
-            <x>-50</x>
-            <y>-20</y>
-            <w>12</w>
-            <h>40</h>
-            <binding>
-              <command>nasal</command>
-              <script>pa28.alternator_switch()</script>
-            </binding>
-          </action>
-          
-          <action>
-            <name>fuel pump</name>
-            <button>0</button>
-            <x>-36</x>
-            <y>-20</y>
-            <w>24</w>
-            <h>40</h>
-            <binding>
-              <command>nasal</command>
-              <script>pa28.f_pump_switch()</script>
-            </binding>
-          </action>
-   
-          <action>
-            <name>landing lights</name>
-            <button>0</button>
-            <x>-10</x>
-            <y>-20</y>
-            <w>24</w>
-            <h>40</h>
-            <binding>
-          <command>nasal</command>
-          <script>pa28.landing_light_switch()</script>
-            </binding>
-          </action>
-   
-          <action>
-            <name>rotating beacon</name>
-            <button>0</button>
-            <x>15</x>
-            <y>-20</y>
-            <w>11</w>
-            <h>40</h>
-            <binding>
-              <command>nasal</command>
-              <script>pa28.fin_strobe_light_switch()</script>
-            </binding>
-          </action>
-   
-          <action>
-            <name>strobe lights</name>
-            <button>0</button>
-            <x>26</x>
-            <y>-20</y>
-            <w>11</w>
-            <h>40</h>
-            <binding>
-              <command>nasal</command>
-              <script>pa28.wing_strobe_light_switch()</script>
-            </binding>
-          </action>
-   
-          <action>
-            <name>pitot heat</name>
-            <button>0</button>
-            <x>38</x>
-            <y>-20</y>
-            <w>24</w>
-            <h>40</h>
-            <binding>
-          <command>nasal</command>
-          <script>pa28.pitot_heat_switch()</script>
-            </binding>
-          </action>
-   
-          <action>
-            <name>increase panel lights</name>
-            <button>0</button>
-            <x>64</x>
-            <y>-20</y>
-            <w>12</w>
-            <h>20</h>
-            <repeatable>true</repeatable>
-            <binding>
-             <command>nasal</command>
-             <script>pa28.panel_light_switch(1)</script>
-            </binding>
-          </action>   
-   
-          <action>
-            <name>decrease panel lights</name>
-            <button>0</button>
-            <x>64</x>
-            <y>0</y>
-            <w>12</w>
-            <h>20</h>
-            <repeatable>true</repeatable>
-            <binding>
-             <command>nasal</command>
-             <script>pa28.panel_light_switch(-1)</script>
-            </binding>
-          </action>   
+    <instrument>
   
-        </actions>
-      </instrument>
-    </instruments>
-  </panel>
+      <name>panel hotspots</name>
+      <x>87</x>
+      <y>20</y>
+      <w>174</w>
+      <h>40</h>
+      <w-base>174</w-base>
+      <h-base>40</h-base>
 
-  <animation>
-  <type>material</type>
-  <object-name>Bezel</object-name>
-  <object-name>NavDimmer</object-name>
-  <object-name>PanelDimmer</object-name>
-  <object-name>BAT.sw</object-name>
-  <object-name>ALT.sw</object-name>
-  <object-name>FuelPump</object-name>
-  <object-name>LandingLight</object-name>
-  <object-name>AntiCollLight.Fin</object-name>
-  <object-name>AntiCollLight.Wing</object-name>
-  <object-name>PitotHeat</object-name>
-  <emission>
-   <red>0.45</red>
-   <green>0.09</green>
-   <blue>0.00001</blue>
-   <factor-prop>/sim/model/material/instruments/factor</factor-prop>
-  </emission>
- </animation>
+      <actions> 
 
- <animation>
-  <type>rotate</type>
-  <object-name>NavDimmer</object-name>
-  <property>controls/switches/nav-lights</property>
-  <factor>120</factor>
-  <axis>
-   <x>-0.00578</x>
-   <y>1.0</y>
-   <z>0.0</z>
-  </axis>
-  <center>
-   <x-m>-0.00578</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
-  </center>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>BAT.sw</object-name>
-  <property>controls/electric/battery-switch</property>
-  <factor>30</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-  <center>
-   <x-m>0.0</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.0</z-m>
-  </center>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>ALT.sw</object-name>
-  <property>controls/electric/alternator-switch</property>
-  <factor>30</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-  <center>
-   <x-m>0.0</x-m>
-   <y-m>0.0</y-m>
-   <z-m>0.0</z-m>
-  </center>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>FuelPump</object-name>
-  <property>controls/engines/engine/fuel-pump</property>
-  <factor>30</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-  <center>
-   <x-m>0.0</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.0</z-m>
-  </center>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>LandingLight</object-name>
-  <property>controls/switches/landing-light</property>
-  <factor>30</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-  <center>
-   <x-m>0.0</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.0</z-m>
-  </center>
- </animation>
-
-  <animation>
-  <type>rotate</type>
-  <object-name>AntiCollLight.Fin</object-name>
-  <property>controls/switches/flashing-beacon</property>
-  <factor>30</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-<center>
- <x-m>0.0</x-m>
-   <y-m>0.00</y-m>
-   <z-m>-0.0</z-m>
-</center>
- </animation>
-
- <animation>
-   <type>rotate</type>
-   <object-name>AntiCollLight.Wing</object-name>
-   <property>controls/switches/strobe-lights</property>
-   <factor>30</factor>
-   <axis>
-     <x>0.0</x>
-     <y>-1.0</y>
-     <z>0.0</z>
-   </axis>
-   <center>
-     <x-m>0.0</x-m>
-     <y-m>0.00</y-m>
-     <z-m>-0.0</z-m>
-   </center>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>PitotHeat</object-name>
-  <property>controls/anti-ice/pitot-heat</property>
-  <factor>30</factor>
-  <axis>
-   <x>0.0</x>
-   <y>-1.0</y>
-   <z>0.0</z>
-  </axis>
-  <center>
-   <x-m>0.0</x-m>
-   <y-m>0.0</y-m>
-   <z-m>-0.0</z-m>
-  </center>
- </animation>
-
- <animation>
-   <type>rotate</type>
-   <object-name>PanelDimmer</object-name>
-   <property>controls/switches/panel-lights-factor</property>
-   <factor>70</factor>
-   <axis>
-     <x>0.0</x>
-     <y>1.0</y>
-     <z>0.0</z>
-   </axis>
-   <center>
-     <x-m>-0.00578</x-m>
-     <y-m>0.00</y-m>
-     <z-m>-0.0</z-m>
-   </center>
- </animation>
+        <action>
+          <name>toggle nav-lights</name>
+          <button>0</button>
+          <x>-77</x>
+          <y>-20</y>
+          <w>12</w>
+          <h>40</h>
+          <binding>
+            <command>nasal</command>
+            <script>pa28.nav_light_switch()</script>
+          </binding>
+        </action>
   
-</PropertyList>
+        <action>
+          <name>battery switch</name>
+          <button>0</button>
+          <x>-62</x>
+          <y>-20</y>
+          <w>12</w>
+          <h>40</h>
+          <binding>
+            <command>nasal</command>
+            <script>pa28.battery_switch()</script>
+          </binding>
+        </action>
+   
+        <action>
+          <name>alternator switch</name>
+          <button>0</button>
+          <x>-50</x>
+          <y>-20</y>
+          <w>12</w>
+          <h>40</h>
+          <binding>
+            <command>nasal</command>
+            <script>pa28.alternator_switch()</script>
+          </binding>
+        </action>
+        
+        <action>
+          <name>fuel pump</name>
+          <button>0</button>
+          <x>-36</x>
+          <y>-20</y>
+          <w>24</w>
+          <h>40</h>
+          <binding>
+            <command>nasal</command>
+            <script>pa28.f_pump_switch()</script>
+          </binding>
+        </action>
+    
+        <action>
+          <name>landing lights</name>
+          <button>0</button>
+          <x>-10</x>
+          <y>-20</y>
+          <w>24</w>
+          <h>40</h>
+          <binding>
+        <command>nasal</command>
+        <script>pa28.landing_light_switch()</script>
+          </binding>
+        </action>
+    
+        <action>
+          <name>rotating beacon</name>
+          <button>0</button>
+          <x>15</x>
+          <y>-20</y>
+          <w>11</w>
+          <h>40</h>
+          <binding>
+            <command>nasal</command>
+            <script>pa28.fin_strobe_light_switch()</script>
+          </binding>
+        </action>
+    
+        <action>
+          <name>strobe lights</name>
+          <button>0</button>
+          <x>26</x>
+          <y>-20</y>
+          <w>11</w>
+          <h>40</h>
+          <binding>
+            <command>nasal</command>
+            <script>pa28.wing_strobe_light_switch()</script>
+          </binding>
+        </action>
+    
+        <action>
+          <name>pitot heat</name>
+          <button>0</button>
+          <x>38</x>
+          <y>-20</y>
+          <w>24</w>
+          <h>40</h>
+          <binding>
+        <command>nasal</command>
+        <script>pa28.pitot_heat_switch()</script>
+          </binding>
+        </action>
+    
+        <action>
+          <name>increase panel lights</name>
+          <button>0</button>
+          <x>64</x>
+          <y>-20</y>
+          <w>12</w>
+          <h>20</h>
+          <repeatable>true</repeatable>
+          <binding>
+           <command>nasal</command>
+           <script>pa28.panel_light_switch(1)</script>
+          </binding>
+        </action>   
+    
+        <action>
+          <name>decrease panel lights</name>
+          <button>0</button>
+          <x>64</x>
+          <y>0</y>
+          <w>12</w>
+          <h>20</h>
+          <repeatable>true</repeatable>
+          <binding>
+           <command>nasal</command>
+           <script>pa28.panel_light_switch(-1)</script>
+          </binding>
+        </action>   
+
+      </actions>
+
+    </instrument>
+
+  </instruments>
+
+</PropertyList>-->

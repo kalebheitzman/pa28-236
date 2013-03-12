@@ -2,10 +2,10 @@
 
 <PropertyList>
 
- <path>SwitchPanel.ac</path>
+ 	<path>SwitchPanel.ac</path>
 
-  <panel>
-    <path>Aircraft/pa28-161/Panel/Switch-Panel_Panel.xml</path>
+  <!--panel>
+    <path>Aircraft/pa28-236/Panel/pa28-236-switch-panel.xml</path>
     <bottom-left>
         <x-m>0.001</x-m>
         <y-m>-0.08742</y-m>
@@ -21,9 +21,9 @@
         <y-m>-0.08742</y-m>
         <z-m>0.01986</z-m>
     </top-left>
-  </panel>
+  </panel-->
 
-	<animation>
+	<!--animation>
 	<type>material</type>
 	<object-name>Bezel</object-name>
 	<object-name>NavDimmer</object-name>
@@ -58,94 +58,77 @@
 	<y-m>0.0</y-m>
 	<z-m>0.0</z-m>
 	</center>
+	</animation-->
+
+	<!--animation>
+		<type>rotate</type>
+		<object-name>BAT.sw</object-name>
+		<property>controls/electric/battery-switch</property>
+		<factor>30</factor>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.0</z-m>
+		</center>
 	</animation>
 
 	<animation>
-	<type>rotate</type>
-	<object-name>BAT.sw</object-name>
-	<property>controls/electric/battery-switch</property>
-	<factor>30</factor>
-	<axis>
-	<x>0.0</x>
-	<y>-1.0</y>
-	<z>0.0</z>
-	</axis>
-	<center>
-	<x-m>0.0</x-m>
-	<y-m>0.0</y-m>
-	<z-m>-0.0</z-m>
-	</center>
+		<type>rotate</type>
+		<object-name>ALT.sw</object-name>
+		<property>controls/electric/alternator-switch</property>
+		<factor>30</factor>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0</z-m>
+		</center>
 	</animation>
 
 	<animation>
-	<type>rotate</type>
-	<object-name>ALT.sw</object-name>
-	<property>controls/electric/alternator-switch</property>
-	<factor>30</factor>
-	<axis>
-	<x>0.0</x>
-	<y>-1.0</y>
-	<z>0.0</z>
-	</axis>
-	<center>
-	<x-m>0.0</x-m>
-	<y-m>0.0</y-m>
-	<z-m>0.0</z-m>
-	</center>
+		<type>rotate</type>
+		<object-name>FuelPump</object-name>
+		<property>controls/engines/engine/fuel-pump</property>
+		<factor>30</factor>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.0</z-m>
+		</center>
 	</animation>
 
 	<animation>
-	<type>rotate</type>
-	<object-name>FuelPump</object-name>
-	<property>controls/engines/engine/fuel-pump</property>
-	<factor>30</factor>
-	<axis>
-	<x>0.0</x>
-	<y>-1.0</y>
-	<z>0.0</z>
-	</axis>
-	<center>
-	<x-m>0.0</x-m>
-	<y-m>0.0</y-m>
-	<z-m>-0.0</z-m>
-	</center>
-	</animation>
-
-	<animation>
-	<type>rotate</type>
-	<object-name>LandingLight</object-name>
-	<property>controls/switches/landing-light</property>
-	<factor>30</factor>
-	<axis>
-	<x>0.0</x>
-	<y>-1.0</y>
-	<z>0.0</z>
-	</axis>
-	<center>
-	<x-m>0.0</x-m>
-	<y-m>0.0</y-m>
-	<z-m>-0.0</z-m>
-	</center>
-	</animation>
-	<!--
-	<animation>
-	<type>rotate</type>
-	<object-name>TurnBankToggle</object-name>
-	<property>instrumentation/turn-indicator/serviceable</property>
-	<factor>40</factor>
-	<axis>
-	<x>0.0</x>
-	<y>-1.0</y>
-	<z>0.0</z>
-	</axis>
-	<center>
-	<x-m>2.125</x-m>
-	<y-m>0.0</y-m>
-	<z-m>-0.028</z-m>
-	</center>
-	</animation>
-	-->
-	<animation>
+		<type>rotate</type>
+		<object-name>LandingLight</object-name>
+		<property>controls/switches/landing-light</property>
+		<factor>30</factor>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.0</z-m>
+		</center>
+	</animation-->
+	
+	<!--animation>
 	<type>rotate</type>
 	<object-name>AntiCollLight.Fin</object-name>
 	<property>controls/switches/flashing-beacon</property>
@@ -211,6 +194,6 @@
 	<y-m>0.00</y-m>
 	<z-m>-0.0</z-m>
 	</center>
-	</animation>
+	</animation-->
   
 </PropertyList>

@@ -239,8 +239,18 @@
 	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
 		<offsets>
 			<x-m>  0.395 </x-m>
-			<y-m>  0.383 </y-m>
-			<z-m>  0.417 </z-m>
+			<y-m>  0.410 </y-m>
+			<z-m>  0.383 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+  </model>
+
+  <model>
+	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m>  0.410 </y-m>
+			<z-m>  0.326 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
   </model>
