@@ -86,7 +86,7 @@
 </cruise>
 
 <!-- Eye Location -->
-<cockpit x="-2.2" y=".30" z="0.4"/>
+<cockpit x="-2.20" y="0.20" z="0.40"/><!-- X: Y: Z:back&forth -->
 
 <!-- Fuselage -->
 <fuselage ax="0" ay="0" az="0" bx="-6.70" by="0" bz="0"
