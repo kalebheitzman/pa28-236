@@ -9,9 +9,9 @@
 		<name>crono</name>
 		<path>Aircraft/Instruments-3d/clock/clock.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.383 </y-m>
-			<z-m>  0.417 </z-m>
+			<x-m>  0.384 </x-m>
+			<y-m> -0.372 </y-m>
+			<z-m>  0.405 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -20,9 +20,9 @@
 		<name>ki227</name>
 		<path>Aircraft/pa28-236/Instruments/kr87-adf/ki227_228.xml</path>
 		<offsets>
-			<x-m>  0.388 </x-m>
-			<y-m> -0.400 </y-m>
-			<z-m>  0.336 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.383 </y-m>
+			<z-m>  0.331 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -31,9 +31,9 @@
 		<name>asi</name>
 		<path>Aircraft/Instruments-3d/asi/asi.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.309 </y-m>
-			<z-m>  0.430 </z-m>
+			<x-m>  0.385 </x-m>
+			<y-m> -0.300 </y-m>
+			<z-m>  0.419 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -42,9 +42,9 @@
 		<name>tc</name>
 		<path>Aircraft/Instruments-3d/tc/tc.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.309 </y-m>
-			<z-m>  0.334 </z-m>
+			<x-m>  0.385 </x-m>
+			<y-m> -0.300 </y-m>
+			<z-m>  0.328 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -53,9 +53,9 @@
   	<name>ai</name>
       <path>Aircraft/Instruments-3d/ai/ai.xml</path>
 			<offsets>
-				<x-m>  0.395 </x-m>
-				<y-m> -0.216 </y-m>
-				<z-m>  0.430 </z-m>
+				<x-m>  0.385 </x-m>
+				<y-m> -0.218 </y-m>
+				<z-m>  0.421 </z-m>
 				<pitch-deg>0</pitch-deg>
 			</offsets>
   </model>
@@ -64,9 +64,9 @@
   		<name>hi</name>
       <path>Aircraft/Instruments-3d/hi/hi.xml</path>
       <offsets>
-				<x-m>  0.396 </x-m>
-				<y-m> -0.216 </y-m>
-				<z-m>  0.334 </z-m>
+				<x-m>  0.384 </x-m>
+				<y-m> -0.217 </y-m>
+				<z-m>  0.330 </z-m>
 				<pitch-deg>0</pitch-deg>
       </offsets>
   </model>
@@ -75,9 +75,9 @@
 		<name>alt</name>
 		<path>Aircraft/Instruments-3d/alt-2/alt2-3d.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.123 </y-m>
-			<z-m>  0.430 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.133 </y-m>
+			<z-m>  0.423 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -86,9 +86,9 @@
 		<name>vsi</name>
 		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.123 </y-m>
-			<z-m>  0.335 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.133 </y-m>
+			<z-m>  0.330 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -97,9 +97,9 @@
 		<name>vor1</name>
 		<path>Aircraft/pa28-236/Instruments/ki206/ki206_1.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.033 </y-m>
-			<z-m>  0.430 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.052 </y-m>
+			<z-m>  0.422 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -108,9 +108,9 @@
 		<name>vor2</name>
 		<path>Aircraft/pa28-236/Instruments/ki206/ki206_2.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.033 </y-m>
-			<z-m>  0.335 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.052 </y-m>
+			<z-m>  0.329 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -161,9 +161,9 @@
 		<name>autopilot</name>
 		<path>Aircraft/Instruments-3d/Century-III/CenturyIII.xml</path>
 		<offsets>
-			<x-m>  0.380 </x-m>
+			<x-m>  0.375 </x-m>
 			<y-m> -0.364 </y-m>
-			<z-m>  0.194 </z-m>
+			<z-m>  0.156 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -172,9 +172,9 @@
   	<name>magnetos</name>
   	<path>Aircraft/Instruments-3d/Century-III/AutopilotMode.xml</path>
   	<offsets>
-			<x-m>  0.396 </x-m>
-			<y-m> -0.252 </y-m>
-			<z-m>  0.210 </z-m>
+			<x-m>  0.386 </x-m>
+			<y-m> -0.260 </y-m>
+			<z-m>  0.155 </z-m>
 			<pitch-deg>0</pitch-deg>
     </offsets>
   </model>
@@ -183,9 +183,9 @@
   	<name>magnetos</name>
   	<path>Aircraft/Instruments-3d/magneto-switch/mags.xml</path>
   	<offsets>
-			<x-m>  0.396 </x-m>
-			<y-m> -0.192 </y-m>
-			<z-m>  0.182 </z-m>
+			<x-m>  0.389 </x-m>
+			<y-m> -0.200 </y-m>
+			<z-m>  0.130 </z-m>
 			<pitch-deg>0</pitch-deg>
     </offsets>
   </model>
@@ -194,9 +194,9 @@
 		<name>mp</name>
 		<path>Aircraft/Instruments-3d/mp/mp.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.123 </y-m>
-			<z-m>  0.194 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.139 </y-m>
+			<z-m>  0.149 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -205,9 +205,9 @@
 		<name>tach</name>
 		<path>Aircraft/Instruments-3d/tach/tach.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m> -0.033 </y-m>
-			<z-m>  0.194 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m> -0.056 </y-m>
+			<z-m>  0.149 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -228,9 +228,9 @@
 	<model>
 	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m>  0.205 </y-m>
-			<z-m>  0.185 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m>  0.1835 </y-m>
+			<z-m>  0.140 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
   </model>
@@ -238,9 +238,9 @@
   <model>
 	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m>  0.410 </y-m>
-			<z-m>  0.383 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m>  0.390 </y-m>
+			<z-m>  0.388 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
   </model>
@@ -248,9 +248,9 @@
   <model>
 	  <path>Aircraft/Instruments-3d/egt/egt.xml</path>
 		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m>  0.410 </y-m>
-			<z-m>  0.326 </z-m>
+			<x-m>  0.383 </x-m>
+			<y-m>  0.389 </y-m>
+			<z-m>  0.318 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
   </model>
