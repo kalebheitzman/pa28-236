@@ -7,31 +7,20 @@
 		<name>kma20</name>
       <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
 			<offsets>
-				<x-m>  0.370 </x-m>
-				<y-m>  0.100 </y-m>
-				<z-m>  0.446 </z-m>
+				<x-m>  0.377 </x-m>
+				<y-m>  0.088 </y-m>
+				<z-m>  0.439 </z-m>
 				<pitch-deg>0</pitch-deg>
 			</offsets>
   </model>
-
-  <model><!-- ADF Tuner -->
-		<name>kr87</name>
-    <path>Aircraft/pa28-236/Instruments/kr87-adf/kr87.xml</path>
-		<offsets>
-			<x-m>  0.370 </x-m>
-			<y-m>  0.100 </y-m>
-			<z-m>  0.307 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model>
 
 	<model><!-- Comm1 and Nav1 -->
 		<name>kx165-1</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-1.xml</path>
 		<offsets>
-			<x-m>  0.370 </x-m>
-			<y-m>  0.100 </y-m>
-			<z-m>  0.399 </z-m>
+			<x-m>  0.377 </x-m>
+			<y-m>  0.088 </y-m>
+			<z-m>  0.392 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -40,9 +29,20 @@
 		<name>kx165-2</name>
 		<path>Aircraft/Instruments-3d/kx165/kx165-2.xml</path>
 		<offsets>
-			<x-m>  0.370 </x-m>
-			<y-m>  0.100 </y-m>
-			<z-m>  0.348 </z-m>
+			<x-m>  0.377 </x-m>
+			<y-m>  0.088 </y-m>
+			<z-m>  0.341 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+
+	<model><!-- ADF Tuner -->
+		<name>kr87</name>
+    <path>Aircraft/pa28-236/Instruments/kr87-adf/kr87.xml</path>
+		<offsets>
+			<x-m>  0.377 </x-m>
+			<y-m>  0.088 </y-m>
+			<z-m>  0.300 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -51,8 +51,8 @@
 		<name>ki266</name>
 		<path>Aircraft/Instruments-3d/ki266/ki266.xml</path>
 		<offsets>
-			<x-m>  0.383 </x-m>
-			<y-m>  0.270 </y-m>
+			<x-m>  0.386 </x-m>
+			<y-m>  0.265 </y-m>
 			<z-m>  0.393 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
@@ -73,9 +73,9 @@
 		<name>kt70</name>
 	  <path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
 		<offsets>
-			<x-m>  0.383 </x-m>
-			<y-m>  0.270 </y-m>
-			<z-m>  0.313 </z-m>
+			<x-m>  0.386 </x-m>
+			<y-m>  0.262 </y-m>
+			<z-m>  0.300 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>

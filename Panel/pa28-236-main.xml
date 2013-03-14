@@ -11,7 +11,7 @@
 		<offsets>
 			<x-m>  0.384 </x-m>
 			<y-m> -0.372 </y-m>
-			<z-m>  0.405 </z-m>
+			<z-m>  0.410 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -33,7 +33,7 @@
 		<offsets>
 			<x-m>  0.385 </x-m>
 			<y-m> -0.300 </y-m>
-			<z-m>  0.419 </z-m>
+			<z-m>  0.421 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -44,7 +44,7 @@
 		<offsets>
 			<x-m>  0.385 </x-m>
 			<y-m> -0.300 </y-m>
-			<z-m>  0.328 </z-m>
+			<z-m>  0.330 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -141,7 +141,7 @@
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.340 </y-m>
-			<z-m>  0.265 </z-m>
+			<z-m>  0.240 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
@@ -152,7 +152,7 @@
 		<offsets>
 			<x-m>  0.395 </x-m>
 			<y-m> -0.093 </y-m>
-			<z-m>  0.265 </z-m>
+			<z-m>  0.240 </z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
