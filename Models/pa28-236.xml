@@ -55,12 +55,12 @@
       <entry><ind>  0.75 </ind><dep> -10 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m>  2.79 </x1-m>
-      <y1-m> -5.10 </y1-m>
-      <z1-m>  0.03 </z1-m>
-      <x2-m>  2.99 </x2-m>
-      <y2-m> -2.56 </y2-m>
-      <z2-m> -0.30 </z2-m>
+      <x1-m>  2.676 </x1-m>
+      <y1-m> -4.695 </y1-m>
+      <z1-m>  0.057 </z1-m>
+      <x2-m>  2.859 </x2-m>
+      <y2-m> -2.377 </y2-m>
+      <z2-m> -0.245 </z2-m>
     </axis>
   </animation>
 
@@ -74,12 +74,12 @@
       <entry><ind>  0.75 </ind><dep>  15 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m>  2.99 </x1-m>
-      <y1-m>  2.56 </y1-m>
-      <z1-m> -0.30 </z1-m>
-      <x2-m>  2.79 </x2-m>
-      <y2-m>  5.10 </y2-m>
-      <z2-m>  0.03 </z2-m>
+      <x1-m>   2.676 </x1-m>
+      <y1-m>   4.629 </y1-m>
+      <z1-m>   0.057 </z1-m>
+      <x2-m>   2.859 </x2-m>
+      <y2-m>   2.310 </y2-m>
+      <z2-m>  -0.245 </z2-m>
     </axis>
   </animation>
 
@@ -90,12 +90,12 @@
     <property>surface-positions/flap-pos-norm</property>
     <factor> -20 </factor>
     <axis>
-    	<x1-m>  3.05 </x1-m>
-      <y1-m> -0.58 </y1-m>
-      <z1-m> -0.62 </z1-m>
-      <x2-m>  3.06 </x2-m>
-      <y2-m> -2.56 </y2-m>
-      <z2-m> -0.38 </z2-m>
+      <x1-m>  2.915 </x1-m>
+      <y1-m> -0.572 </y1-m>
+      <z1-m> -0.523 </z1-m>
+    	<x2-m>  2.920 </x2-m>
+      <y2-m> -2.376 </y2-m>
+      <z2-m> -0.310 </z2-m>
     </axis>
   </animation>
 
@@ -105,12 +105,12 @@
     <property>surface-positions/flap-pos-norm</property>
     <factor> -20 </factor>
     <axis>
-      <x1-m>  3.06 </x1-m>
-      <y1-m>  2.56 </y1-m>
-      <z1-m> -0.38 </z1-m>
-      <x2-m>  3.05 </x2-m>
-      <y2-m>  0.58 </y2-m>
-      <z2-m> -0.62 </z2-m>
+      <x1-m>  2.921 </x1-m>
+      <y1-m>  2.309 </y1-m>
+      <z1-m> -0.310 </z1-m>
+      <x2-m>  2.915 </x2-m>
+      <y2-m>  0.505 </y2-m>
+      <z2-m> -0.523 </z2-m>
     </axis>
   </animation>
 
@@ -125,9 +125,9 @@
       <entry><ind>  0.75 </ind><dep>   9.5 </dep></entry>
     </interpolation>
     <center>
-      <x-m> 6.30 </x-m>
+      <x-m> 6.035 </x-m>
       <y-m> 0.000 </y-m>
-      <z-m> 0.05 </z-m>
+      <z-m> 0.075 </z-m>
     </center>
     <axis>
       <x> 0 </x>
@@ -147,9 +147,9 @@
       <entry><ind>  0.75 </ind><dep>   9.5 </dep></entry>
     </interpolation>
     <center>
-      <x-m> 6.30 </x-m>
+      <x-m> 6.035 </x-m>
       <y-m> 0.000 </y-m>
-      <z-m> 0.05 </z-m>
+      <z-m> 0.082 </z-m>
     </center>
     <axis>
       <x> 0 </x>
@@ -169,12 +169,12 @@
       <entry><ind>  0.75 </ind><dep>  25 </dep></entry>
     </interpolation>
     <axis>
-      <x1-m>  6.765 </x1-m>
-      <y1-m>  0.014 </y1-m>
-      <z1-m>  1.561 </z1-m>
-      <x2-m>  6.373 </x2-m>
-      <y2-m>  0.014 </y2-m>
-      <z2-m>  0.239 </z2-m>
+      <x1-m>  5.938 </x1-m>
+      <y1-m> -0.033 </y1-m>
+      <z1-m>  0.257 </z1-m>
+      <x2-m>  6.296 </x2-m>
+      <y2-m> -0.033 </y2-m>
+      <z2-m>  1.462 </z2-m>
     </axis>
   </animation>
 
